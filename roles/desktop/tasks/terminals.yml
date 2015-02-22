@@ -1,0 +1,6 @@
+---
+- name: Install xterm
+  yum: name=xterm
+
+- name: Install ROXTerm
+  yum: name=roxterm

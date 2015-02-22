@@ -1,0 +1,7 @@
+---
+# TODO: Depend on RPMFusion
+- name: Install VLC
+  yum: name=vlc
+
+- name: Install MPlayer
+  yum: name=mplayer

@@ -1,0 +1,12 @@
+---
+- name: Install ImageMagick
+  yum: name=ImageMagick
+
+- name: Install potrace
+  yum: name=potrace
+
+- name: Install GIMP
+  yum: name=gimp
+
+- name: Install Inkscape
+  yum: name=inkscape

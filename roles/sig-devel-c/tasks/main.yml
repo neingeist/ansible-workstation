@@ -1,0 +1,4 @@
+---
+# First install the group "C Development Tools and Libraries"
+- name: Install group "C Development Tools and Libraries"
+  yum: name="@C Development Tools and Libraries"

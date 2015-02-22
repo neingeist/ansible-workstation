@@ -1,0 +1,13 @@
+#
+# GUI Programs
+#
+---
+- include: fonts.yml
+- include: graphics.yml
+- include: graphics-3d.yml
+- include: media.yml
+- include: media-nonfree.yml
+- include: misc.yml
+- include: terminals.yml
+- include: thunderbird.yml
+- include: window-managers.yml

@@ -1,0 +1,9 @@
+#
+# Trolol - Install both EMACS and VIM
+#
+---
+- name: Install the Best Editor in the World
+  yum: name=vim
+
+- name: Install the Best Editor in the World
+  yum: name=emacs

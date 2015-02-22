@@ -1,0 +1,6 @@
+---
+- include: screen.yml
+- include: misc.yml
+- include: best-editor.yml
+- include: shells.yml
+

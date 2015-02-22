@@ -1,0 +1,15 @@
+---
+- name: Install i3
+  yum: name=i3
+
+- name: Install i3status
+  yum: name=i3status
+
+- name: Install i3-ipc
+  yum: name=i3-ipc
+
+- name: Install i3lock
+  yum: name=i3lock
+
+- name: Install dunst
+  yum: name=dunst

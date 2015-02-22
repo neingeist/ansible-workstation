@@ -1,0 +1,24 @@
+#
+# Useful tools that need no configuration
+#
+---
+# Install misc text tools
+- yum: name=pv
+- yum: name=jq
+
+# Install misc network tools
+- yum: name=socat
+- yum: name=nmap
+- yum: name=htop
+
+# Install misc protocol clients
+- yum: name=lftp
+- yum: name=elinks
+- yum: name=lynx # needed for gopher://!
+
+# Install misc communication tools
+- yum: name=irssi
+- yum: name=mutt
+
+# Install misc misc tools ;-)
+- yum: name=mc

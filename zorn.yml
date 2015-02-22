@@ -1,0 +1,13 @@
+#
+# Entropia Zorn Ansible Playbook
+#
+---
+- hosts: zorn
+  roles:
+    - system # first things first
+    - tools
+    - desktop
+    - sig-arduino
+    - sig-devel-c
+    - sig-devel-golang
+    - sig-tex

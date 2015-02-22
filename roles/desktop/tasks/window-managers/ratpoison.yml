@@ -1,0 +1,3 @@
+---
+- name: Install ratpoison
+  yum: name=ratpoison

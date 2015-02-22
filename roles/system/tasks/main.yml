@@ -1,0 +1,5 @@
+---
+- include: selinux.yml
+- include: cups-verschwendung.yml
+- include: rpmfusion.yml
+- include: ntfs.yml

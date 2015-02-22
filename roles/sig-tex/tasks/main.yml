@@ -1,0 +1,4 @@
+---
+- yum: name=texlive
+- yum: name=gummi
+- yum: name=texworks

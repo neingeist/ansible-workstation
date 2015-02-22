@@ -1,0 +1,6 @@
+---
+- name: Install Pidgin
+  yum: name=pidgin
+
+- name: Install Zathura
+  yum: name=zathura

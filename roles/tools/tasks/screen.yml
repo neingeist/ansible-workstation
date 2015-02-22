@@ -1,0 +1,6 @@
+---
+- name: install screen
+  yum: name=screen
+
+- name: copy screenrc
+  copy: src=screen/screenrc dest=/etc/screenrc

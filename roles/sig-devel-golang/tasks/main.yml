@@ -1,0 +1,14 @@
+---
+- name: Install golang
+  yum: name=golang
+
+- yum: name=emacs-golang
+- yum: name=golang-cover
+- yum: name=golang-godoc
+- yum: name=golang-vet
+- yum: name=golang-vim
+
+- yum: name=golang-golangorg-crypto-devel
+- yum: name=golang-golangorg-exp-devel
+- yum: name=golang-golangorg-net-devel
+- yum: name=golang-golangorg-text-devel

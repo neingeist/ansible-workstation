@@ -1,0 +1,9 @@
+---
+- name: Install Blender
+  yum: name=blender
+
+- name: Install OpenSCAD
+  yum: name=openscad
+
+- name: Install Cura
+  yum: name=cura

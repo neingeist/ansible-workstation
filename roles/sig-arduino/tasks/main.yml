@@ -1,0 +1,12 @@
+#
+# Arduino
+#
+---
+- name: install Arduino IDE
+  yum: name=arduino state=latest
+
+- name: install ino
+  yum: name=ino state=latest
+
+- name: install Fritzing
+  yum: name=fritzing state=latest

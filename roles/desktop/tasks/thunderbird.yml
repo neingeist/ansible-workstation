@@ -1,0 +1,10 @@
+---
+- name: Install Thunderbird
+  yum: name=thunderbird
+
+- name: Install Thunderbird Enigmail
+  yum: name=thunderbird-enigmail
+
+- name: Install Thunderbird Lightning
+  yum: name=thunderbird-lightning
+

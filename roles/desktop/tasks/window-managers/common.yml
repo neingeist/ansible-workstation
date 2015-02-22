@@ -1,0 +1,14 @@
+---
+# Screensaver
+- name: Install XScreenSaver
+  yum: name=xscreensaver
+
+# Applets
+- name: Install parcellite
+  yum: name=parcellite
+
+- name: Install volumeicon
+  yum: name=volumeicon
+
+- name: Install FirewallD applet
+  yum: name=firewall-applet

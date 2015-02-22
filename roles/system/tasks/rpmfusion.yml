@@ -1,0 +1,6 @@
+---
+- name: Install RPMFusion Free
+  yum: name=http://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-21.noarch.rpm
+
+- name: Install RPMFusion Non-Free
+  yum: name=http://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-21.noarch.rpm

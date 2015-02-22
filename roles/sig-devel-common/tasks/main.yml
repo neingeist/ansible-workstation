@@ -1,0 +1,7 @@
+---
+- yum: name=the_silver_searcher
+- yum: name=sloccount
+- yum: name=mercurial
+- yum: name=subversion
+- yum: name=git-svn
+- yum: name=cmake

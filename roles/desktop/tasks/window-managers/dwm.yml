@@ -1,0 +1,3 @@
+---
+- name: Install dwm
+  yum: name=dwm

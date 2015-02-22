@@ -1,0 +1,10 @@
+---
+# common things
+- include: window-managers/common.yml
+
+# window managers
+- include: window-managers/awesome.yml
+- include: window-managers/i3.yml
+- include: window-managers/dwm.yml
+- include: window-managers/xmonad.yml
+- include: window-managers/ratpoison.yml

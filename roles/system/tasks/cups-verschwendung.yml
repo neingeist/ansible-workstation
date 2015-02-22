@@ -1,0 +1,17 @@
+#
+# Configure cups printer 'Verschwendung'
+#
+---
+# Files should not be altered when cups is running
+- name: stopping cups
+  service: name=cups state=stopped
+
+# TODO: Will just overwrite printers.conf
+- name: copying printer configuration
+  copy: src=cups/printers.conf dest=/etc/cups/printers.conf backup=yes
+- name: copying printer ppd
+  copy: src=cups/verschwendung.ppd dest=/etc/cups/ppd/ backup=yes
+
+- name: starting cups
+  service: name=cups state=started
+

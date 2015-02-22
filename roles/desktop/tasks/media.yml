@@ -1,0 +1,6 @@
+---
+- name: Install FFmpeg
+  yum: name=ffmpeg
+
+- name: Install gmpc
+  yum: name=gmpc

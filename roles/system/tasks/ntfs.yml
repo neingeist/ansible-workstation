@@ -1,0 +1,3 @@
+---
+- name: Install ntfs-3g
+  yum: name=ntfs-3g
